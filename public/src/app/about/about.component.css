@@ -1,0 +1,88 @@
+header{
+  background-color: #f7f7f7;
+  /*padding: 2em;*/
+  margin-top: -20px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+h2{
+  font-size: 5em;
+  margin-bottom: .5em;
+  letter-spacing: -0.1em;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.main-text{
+  font-size: 1.25em;
+  font-family: arial;
+  color: #515151;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.strong-text{
+  font-size: 1.35em;
+  font-weight: 700;
+}
+
+img{
+  width: 350px;
+}
+
+.img-fix{
+  border-radius: 50%;
+  width: 120px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  background-color: white;
+  margin-top: .6em;
+}
+
+h3{
+  font-family: times;
+  font-size: 1em;
+  color: #c1c1c1;
+  letter-spacing: 0.2em;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: 400;
+  font-family: futura, verdana;
+
+}
+
+.random-title{
+  font-size: 5em;
+  letter-spacing: -0.1em;
+  float: right;
+  font-weight: 500;
+}
+
+section{
+  background-color: #F7F7F7;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: -1.5em;
+
+}
+
+ul, li{
+  list-style-type: none;
+  font-size: 1.15em;
+  color: #515151;
+  text-align: center;
+  margin: 2em;
+}
+
+.pic2{
+  width: 250px;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 995px) {
+  .pic2 {
+    margin: 0 auto;
+    display: block;
+  }
+}
