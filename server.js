@@ -3,12 +3,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const router = express.Router();
-const cors = require("cors");
 
-//Middleware
-app.use(cors ({
-  origin: "http://localhost:4200"
-}))
 
 app.use(express.static(path.join(__dirname + "/public/dist")));
 
